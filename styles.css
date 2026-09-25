@@ -5,31 +5,3 @@
 .subtitle-text {
     color: red !important;
 }
-
-
-
-header,
-[data-testid="stHeader"],
-[data-testid="stToolbar"] {
-    display: none !important;
-    visibility: hidden !important;
-}
-
-[data-testid="stStatusWidget"],
-[data-testid="stDecoration"],
-.stAppViewerBadge,
-.stAppDeployButton,
-div[class*="viewerBadge"],
-div[class*="stActionButton"],
-div[class*="styles_viewerBadge"],
-.st-emotion-cache-15ecoya,
-.st-emotion-cache-cz8522 {
-    display: none !important;
-    visibility: hidden !important;
-    opacity: 0 !important;
-    pointer-events: none !important;
-}
-
-footer {
-    display: none !important;
-}
