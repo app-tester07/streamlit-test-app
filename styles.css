@@ -8,30 +8,28 @@
 
 
 
-
+header,
+[data-testid="stHeader"],
 [data-testid="stToolbar"] {
     display: none !important;
+    visibility: hidden !important;
 }
 
-header {
-    display: none !important;
-}
-
-.stAppDeployButton,
 [data-testid="stStatusWidget"],
-div[class*="viewerBadge"] {
+[data-testid="stDecoration"],
+.stAppViewerBadge,
+.stAppDeployButton,
+div[class*="viewerBadge"],
+div[class*="stActionButton"],
+div[class*="styles_viewerBadge"],
+.st-emotion-cache-15ecoya,
+.st-emotion-cache-cz8522 {
     display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
 }
 
 footer {
     display: none !important;
-}
-
-div[class*="stActionButton"],
-div[class*="viewerBadge"],
-.stAppViewerBadge,
-.stAppDeployButton,
-[data-testid="stStatusWidget"] {
-    display: none !important;
-    visibility: hidden !important;
 }
