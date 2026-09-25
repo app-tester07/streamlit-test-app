@@ -5,3 +5,24 @@
 .subtitle-text {
     color: red !important;
 }
+
+
+
+
+[data-testid="stToolbar"] {
+    display: none !important;
+}
+
+header {
+    display: none !important;
+}
+
+.stAppDeployButton,
+[data-testid="stStatusWidget"],
+div[class*="viewerBadge"] {
+    display: none !important;
+}
+
+footer {
+    display: none !important;
+}
