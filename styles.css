@@ -1,7 +1,7 @@
 #main-heading {
-    color: blue;
+    color: blue !important;
 }
 
 .subtitle-text {
-    color: red;
+    color: red !important;
 }
